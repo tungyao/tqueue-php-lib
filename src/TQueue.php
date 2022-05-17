@@ -36,7 +36,7 @@ class TQueue
         } catch (\Exception|TransportExceptionInterface $exception) {
             return false;
         }
-        return false;
+        return true;
     }
 
 // 中断
@@ -49,6 +49,6 @@ class TQueue
         } catch (\Exception|TransportExceptionInterface $exception) {
             return false;
         }
-        return false;
+        return true;
     }
 }

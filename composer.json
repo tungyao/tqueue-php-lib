@@ -15,7 +15,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Tungyao\\TQueue\\": ""
+      "Tungyao\\TQueue\\": "src"
     }
   },
   "version": "1.0.0"

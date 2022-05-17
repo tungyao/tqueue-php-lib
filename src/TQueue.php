@@ -29,7 +29,7 @@ class TQueue
                 [
                     'json' => [
                         'unikey' => $unikey,
-                        'clock' => $client,
+                        'clock' => $clock,
                         'url' => $url
                     ]
                 ]);

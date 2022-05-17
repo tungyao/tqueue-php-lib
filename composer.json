@@ -1,0 +1,22 @@
+{
+  "name": "tungyao/tqueue",
+  "description": "queue for personal",
+  "type": "library",
+  "license": "Apache2.0",
+  "authors": [
+    {
+      "name": "tong",
+      "email": "1922527051@qq.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "symfony/http-client": "5.3.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tungyao\\TQueue\\": ""
+    }
+  },
+  "version": "1.0.0"
+}
